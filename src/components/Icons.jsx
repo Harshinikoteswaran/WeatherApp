@@ -1,9 +1,9 @@
 import React from 'react';
-import windIcon from '../assets/wind.png';
-import humidityIcon from '../assets/humidity.png';
-import visibilityIcon from '../assets/visibility.png';
-import sunriseIcon from '../assets/sunrise.png';
-import sunsetIcon from '../assets/sunset.png';
+import windIcon from 'src/assets/wind.png';
+import humidityIcon from 'src/assets/humidity.png';
+import visibilityIcon from 'src/assets/visibility.png';
+import sunriseIcon from 'src/assets/sunrise.png';
+import sunsetIcon from 'src/assets/sunset.png';
 
 const Icon = ({src, alt, className})=>(
     <img src={src} alt={alt} className={`h-8 w-8 inline-block ${className}`} />
